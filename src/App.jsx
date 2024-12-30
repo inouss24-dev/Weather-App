@@ -66,7 +66,7 @@ function App() {
                     value={input}
                   />
                   <button
-                    className="btn text-[#ffff] border-none bg-gradient-to-r from-[#a1c4fd] to-[#c2e9fb] px-6 py-2 rounded-md"
+                    className="btn text-[#ffff] border-none bg-gradient-to-r from-[#a1c4fd] to-[#c2e9fb] px-6 py-2 rounded-md hover:text-[#000] transition duration-300 ease-in-out"
                     onClick={handleBtn}
                   >
                     Search
@@ -91,7 +91,7 @@ function App() {
               </span>
             </div>
 
-            <div className="text-black text-4xl">
+            <div className="text-black text-2xl sm:text-4xl text-center hover:text-[#ff6347] transition duration-300 ease-in-out">
               <span>
                 {result.weather &&
                   result.weather[0] &&
